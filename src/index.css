@@ -1,0 +1,52 @@
+/*single page app css*/
+
+body {
+  background-color: #FFFFFF;
+  padding: 0px;
+  margin: 0;
+}
+
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+
+/*when a navbar link in react-router is activated, it is assigned a
+classname of 'active'*/
+
+.content {
+  background-color: #FFF;
+  padding: 0px;
+  margin:0px;
+}
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bg_img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
