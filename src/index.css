@@ -50,3 +50,35 @@ classname of 'active'*/
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.largeText {
+  font-size: 60px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+}
+
+.mediumLargeText {
+  font-size: 25px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+}
+
+.mediumText {
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+}
+
+.smallText {
+  font-size: 15px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+}
+
+.darkText {
+  color: #000000;
+}
+
+.lightText {
+  color: #FFFFFF;
+}

@@ -8,7 +8,8 @@ class MyProjectList {
           name:'exmaple',
           desc:'example',
           github:'https://github.com',
-          img:'./imgs/star_background.jpg'
+          img:'./imgs/star_background.jpg',
+          tools: 'Python, Javascript'
         }
     );
 
@@ -17,7 +18,8 @@ class MyProjectList {
         name:'exmaple',
         desc:'example',
         github:'https://github.com',
-        img:'./imgs/star_background.jpg'
+        img:'./imgs/leaf_background.jpg',
+        tools: 'Java'
       }
     );
 
@@ -26,7 +28,38 @@ class MyProjectList {
         name:'exmaple',
         desc:'example',
         github:'https://github.com',
-        img:'./imgs/star_background.jpg'
+        img:'./imgs/star_background.jpg',
+        tools: 'Python, Flask'
+      }
+    );
+
+    this.list.push(
+      {
+        name:'exmaple',
+        desc:'example',
+        github:'https://github.com',
+        img:'./imgs/star_background.jpg',
+        tools: 'Python, Flask'
+      }
+    );
+
+    this.list.push(
+      {
+        name:'exmaple',
+        desc:'example',
+        github:'https://github.com',
+        img:'./imgs/star_background.jpg',
+        tools: 'Python, Flask'
+      }
+    );
+
+    this.list.push(
+      {
+        name:'exmaple',
+        desc:'example',
+        github:'https://github.com',
+        img:'./imgs/star_background.jpg',
+        tools: 'Python, Flask'
       }
     );
   }
