@@ -39,6 +39,7 @@ class Main extends Component{
             <Route path="/Resume" component={Resume}/>
             <Route path="/Contact" component={Contact}/>
           </div>
+          </BrowserRouter>
         </div>
       </HashRouter>
     );
