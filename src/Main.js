@@ -2,8 +2,10 @@ import React, {Component} from "react";
 import {
   Route,
   NavLink,
-  HashRouter
+  HashRouter,
+  BrowserRouter
 } from "react-router-dom";
+
 import FrontPage from "./FrontPage.js";
 import Projects from "./Projects";
 import Resume from "./Resume";
@@ -17,6 +19,7 @@ class Main extends Component{
     return (
       <HashRouter>
         <div>
+          <BrowserRouter basename="/PersonalWebsite/">
           <Navbar bg="dark" expand="lg" sticky="top">
           <Navbar.Brand><NavLink className="mediumLargeText lightText" exact to="/">Home</NavLink></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
