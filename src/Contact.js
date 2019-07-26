@@ -15,22 +15,13 @@ class Contact extends React.Component {
         <Tabs style={{margin:"20px"}} className="darkText mediumLargeText"
               defaultActiveKey="About" id="uncontrolled-tab-example">
           <Tab eventKey="About" title="About">
-            <Container style={{maxWidth:"100%", margin:"0px"}}>
-              <Row>
-                <Col xs={3}>
-                  <Image style={{maxWidth:"25vw", margin:"2vw"}} src={require('./imgs/star_background.jpg')} />
-                </Col>
-                <Col xs={9}>
-                  <Card style={{margin:"2vw", maxWidth:"800px"}}>
-                    <Card.Text className="darkText mediumText"
-                               style={{padding:"20px"}}>
-                    Hi, my name is Connor. I'm an Electrical and Computer Engineering major studying at the
-                    University of Texas at Austin.
-                    </Card.Text>
-                  </Card>
-                </Col>
-              </Row>
-            </Container>
+              <Card style={{margin:"20px", maxWidth:"800px"}}>
+                <Card.Text className="darkText mediumText"
+                           style={{padding:"20px"}}>
+                Hi, my name is Connor. I'm an Electrical and Computer Engineering major studying at the
+                University of Texas at Austin.
+                </Card.Text>
+              </Card>
           </Tab>
 
           <Tab eventKey="Contact" className="darkText mediumLargeText" title="Contact">

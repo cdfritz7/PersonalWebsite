@@ -1,0 +1,13 @@
+etest resume asdffffffffffffffffffffffffffffffffffffffffffffffffffffff
+
+/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log
+/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log
+/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log
+/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log
+/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log
+/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log
+/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log
+/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log
+/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log
+/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log/home/fritz/.npm/_logs/2019-07-24T23_07_21_763Z-debug.log
+

@@ -10,7 +10,7 @@ class MyCard extends Component{
   render(){
     return (
       <div>
-        <Card bg="light" style={{ radius: "0px" , width: '450px', margin:'1vw'}}>
+        <Card bg="light" style={{ radius: "0px" , width: '25vw', margin:'1vw'}}>
           <Card.Img variant="top" src={require('./imgs/star_background.jpg')} />
           <Card.Body>
             <Card.Title style={{ borderBottom: "1px solid grey" }}
