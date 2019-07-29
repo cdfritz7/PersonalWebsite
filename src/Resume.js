@@ -11,20 +11,11 @@ class Resume extends Component {
         <Container style={{margin: "0vw", padding: "0", minWidth:"100%"}}>
           <Row style={{margin: "1vw"}}>
             <Col className="d-flex justify-content-center" xs={12} style={{margin: "0vw", padding: "0"}}>
-              <img style={{borderWidth: '1vw',
+              <img style={{borderWidth: '.5vw',
                            borderStyle: 'solid',
-                           height: "80vh",
+                           height: "85vh",
                            borderColor: "#343B42"}}
-                   src={require('./imgs/leaf_background.jpg')} />
-            </Col>
-          </Row>
-          <Row style={{margin: "1vw"}}>
-            <Col className="d-flex justify-content-center">
-              <Button className="mediumLargeText"
-                      variant='dark'
-                      href="./files/resume.pdf"
-                      size="lg"
-                      download>Download Resume</Button>
+                   src={require('./imgs/Resume_Picture.png')} />
             </Col>
           </Row>
         </Container>

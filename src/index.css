@@ -77,8 +77,10 @@ classname of 'active'*/
 
 .darkText {
   color: #000000;
+  font-family: 'Dosis', sans-serif;
 }
 
 .lightText {
   color: #FFFFFF;
+  font-family: 'Dosis', sans-serif;
 }
