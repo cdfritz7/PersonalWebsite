@@ -17,6 +17,7 @@ class MyCard extends Component{
     this.highlightBorder = this.highlightBorder.bind(this)
     this.dehighlightBorder = this.dehighlightBorder.bind(this)
     this.githubButton = this.githubButton.bind(this)
+    this.cardImage = this.cardImage.bind(this)
   }
 
   changePicture(){
@@ -51,17 +52,29 @@ class MyCard extends Component{
     }
   }
 
+  cardImage(){
+    if(this.state.imgs.length > 1){
+      return(
+        <Card.Img variant="top" style={{borderWidth: this.state.border_size,
+                                        borderStyle: 'solid',
+                                        borderColor: "#428bca"}}
+                                src={this.state.img}
+                                onClick={this.changePicture}
+                                onMouseEnter={this.highlightBorder}
+                                onMouseOut={this.dehighlightBorder}/>
+      )
+    }else{
+      return(
+        <Card.Img variant="top" style={{borderWidth: 0}} src={this.state.img}/>
+      )
+    }
+  }
+
   render(){
     return (
       <div>
-        <Card bg="light" style={{ radius: "0px" , width: '30vw', margin:'1vw'}}>
-          <Card.Img variant="top" style={{borderWidth: this.state.border_size,
-                                          borderStyle: 'solid',
-                                          borderColor: "#428bca"}}
-                                  src={this.state.img}
-                                  onClick={this.changePicture}
-                                  onMouseEnter={this.highlightBorder}
-                                  onMouseOut={this.dehighlightBorder}/>
+        <Card bg="light" className="my-card-width" style={{ radius: "0px" }}>
+          {this.cardImage()}
           <Card.Body>
             <Card.Title style={{ borderBottom: "1px solid grey" }}
                         className="darkText mediumLargeText">
@@ -85,6 +98,7 @@ class Projects extends Component {
   //pull in information from some file, which will be our database, to make
   //these cards
   //file will contain picture, title, description, and github link
+
   render(){
 
     let myProjects = new MyProjectList();
@@ -102,7 +116,7 @@ class Projects extends Component {
 
     return (
       <div>
-          <CardColumns style={{maxWidth:"100%"}}>
+          <CardColumns style={{maxWidth:"98%"}}>
             {cards}
           </CardColumns>
       </div>

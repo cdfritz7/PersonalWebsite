@@ -38,7 +38,11 @@ class MyProjectList {
     this.list.push(
         {
           name:'This Website',
-          desc:'example',
+          desc:'I built this website to practice react and show off some of the\
+                projects I\'ve worked on. I built this as a single page app \
+                using ReactJS and HTML/CSS. I used react-router to get standard \
+                webapp functionality out of this SPA. I also used react-bootstrap \
+                for styling.',
           github:'https://github.com',
           imgs:[require('./imgs/this_website/code.png'),
                 require('./imgs/this_website/website.png')],
@@ -49,7 +53,12 @@ class MyProjectList {
     this.list.push(
         {
           name:'Treexas - Interactive Database',
-          desc:'example',
+          desc:'This was a semester long project a team and I built using Django \
+                with a MySQL backend. The basic idea is that it\'s an interactive \
+                database that allows users to search for texas plants, state parks \
+                and ecoregions. We built a lot of functionality into our site \
+                including animations, dynamic reactions, an interactive map, \
+                pagination, etc',
           github:'https://github.com',
           imgs:[require('./imgs/treexas/frontpage.png'),
                 require('./imgs/treexas/map.png'),
@@ -61,7 +70,10 @@ class MyProjectList {
     this.list.push(
         {
           name:'ASCII Art Creator',
-          desc:'example',
+          desc:'This was a smaller project I built for fun. It takes a video or \
+                 picture as input, then converts it to a text file of ascii characters. \
+                 Thus automatically creating some ascii art. \
+                 The user can even change the pixelation of the output.',
           github:'https://github.com',
           imgs:[require('./imgs/ascii_art/danny_out1.jpg'),
                 require('./imgs/ascii_art/danny_out2.jpg'),
@@ -73,7 +85,9 @@ class MyProjectList {
     this.list.push(
         {
           name:'Deep Autoencoders for Sonar Feature Extraction',
-          desc:'example',
+          desc:'This was a project I built for my work at the Applied Research Lab. \
+                Basically, we used deep autoencoders to create low dimensional \
+                representations of sonar plots for use in later clustering.',
           github:'None',
           imgs:[require('./imgs/sonar_autoencoders/sonar_plots.png'),
                 require('./imgs/sonar_autoencoders/autoencoder.jpeg')],
@@ -84,7 +98,11 @@ class MyProjectList {
     this.list.push(
         {
           name:'Clustering for Identification of Large Underwater Objects',
-          desc:'example',
+          desc:'Another project I worked on for the Applied Research Laboratories!\
+                I used unsupervised machine learning techniques (clustering) and \
+                object recognition/tracking techniques to create a system \
+                for classifying and tracking large underwater objects such as \
+                schools of fish and underwater mountains.',
           github:'None',
           imgs:[require('./imgs/sonar_clustering/sonar.jpeg'),
                 require('./imgs/sonar_clustering/dbscan.gif')],
@@ -95,7 +113,9 @@ class MyProjectList {
     this.list.push(
         {
           name:'Fractal Generator',
-          desc:'example',
+          desc:'This was a hobby project I worked on to create christmas cards \
+                for friends and family. The user can easily create different types \
+                of fractals using python and matplotlib.',
           github:'https://github.com',
           imgs:[require('./imgs/fractal_generator/treefractal5.jpg'),
                 require('./imgs/fractal_generator/fractal7.jpg'),
@@ -107,18 +127,25 @@ class MyProjectList {
     this.list.push(
         {
           name:'Handheld Videogame',
-          desc:'example',
+          desc:'This was a school project for an Embedded Systems class. \
+                My partner and I built a handheld two player game from scratch. \
+                The two players would face off in a space duel, and could select \
+                from multiple levels. If I remember correctly, we got 6th place \
+                out of 63 teams',
           github:'https://github.com',
           imgs:[require('./imgs/c_videogame/videogame1.png'),
                 require('./imgs/c_videogame/videogame2.png')],
-          tools: 'Python, CV2'
+          tools: 'C, lots of hardware'
         }
     );
 
     this.list.push(
         {
           name:'Pixel Sorter',
-          desc:'example',
+          desc:'For this project, I built a python script that allows users to make \
+                digital art by sorting pixels within an image. The user can specify \
+                square shapes by pixel value and percentages, and can choose from \
+                multiple pixel sorting styles.',
           github:'https://github.com',
           imgs:[require('./imgs/pixelsorter/jellyfishout.jpg')],
           tools: 'Python, CV2'
@@ -128,10 +155,14 @@ class MyProjectList {
     this.list.push(
         {
           name:'Chat Client',
-          desc:'example',
+          desc:'This was the final project for another one of my classes. We built \
+                A fully functional chat client that allowed users to create chatrooms \
+                with multiple other users. We used a singleton design pattern and \
+                lots of socket programming for this one. Unfortunately I can\'t make \
+                the github for this one public because of cheating concerns.',
           github:'None',
           imgs:[require('./imgs/chat_client/client.png')],
-          tools: 'Python, CV2'
+          tools: 'Java'
         }
     );
 

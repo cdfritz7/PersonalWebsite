@@ -11,9 +11,9 @@ class Resume extends Component {
         <Container style={{margin: "0vw", padding: "0", minWidth:"100%"}}>
           <Row style={{margin: "1vw"}}>
             <Col className="d-flex justify-content-center" xs={12} style={{margin: "0vw", padding: "0"}}>
-              <img style={{borderWidth: '.5vw',
+              <img style={{borderWidth: '1vw',
                            borderStyle: 'solid',
-                           height: "85vh",
+                           width: "75vw",
                            borderColor: "#343B42"}}
                    src={require('./imgs/Resume_Picture.png')} />
             </Col>
