@@ -102,6 +102,16 @@ classname of 'active'*/
       margin:1vw;
     }
     .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1000px) {
+    .my-card-width{
+      width:30vw;
+      margin: 1vw;
+    }
+    .card-columns {
         column-count: 3;
     }
 }

@@ -13,7 +13,7 @@ class MyProjectList {
                 to identify American Sign Language letter signs. The network was \
                 trained on signs from 6 users, and was able to achieve above 99% \
                 accuracy when tested on the same users.',
-          github:'https://github.com',
+          github:'https://github.com/cdfritz7/ASL_CNN',
           imgs:[require('./imgs/ASL_CNN/structure.jpg'),
                 require('./imgs/ASL_CNN/accuracy.jpg')],
           tools: 'Python, Keras, Numpy, Pandas'
@@ -43,7 +43,7 @@ class MyProjectList {
                 using ReactJS and HTML/CSS. I used react-router to get standard \
                 webapp functionality out of this SPA. I also used react-bootstrap \
                 for styling.',
-          github:'https://github.com',
+          github:'https://github.com/cdfritz7/PersonalWebsite',
           imgs:[require('./imgs/this_website/code.png'),
                 require('./imgs/this_website/website.png')],
           tools: 'Javascript, HTML/CSS, ReactJS'
@@ -59,7 +59,7 @@ class MyProjectList {
                 and ecoregions. We built a lot of functionality into our site \
                 including animations, dynamic reactions, an interactive map, \
                 pagination, etc',
-          github:'https://github.com',
+          github:'https://github.com/ec505/EE461L-sp19-owl-team',
           imgs:[require('./imgs/treexas/frontpage.png'),
                 require('./imgs/treexas/map.png'),
                 require('./imgs/treexas/stateparks.png')],
@@ -74,11 +74,11 @@ class MyProjectList {
                  picture as input, then converts it to a text file of ascii characters. \
                  Thus automatically creating some ascii art. \
                  The user can even change the pixelation of the output.',
-          github:'https://github.com',
+          github:'https://github.com/cdfritz7/ASCII_art',
           imgs:[require('./imgs/ascii_art/danny_out1.jpg'),
                 require('./imgs/ascii_art/danny_out2.jpg'),
                 require('./imgs/ascii_art/stefan_out1.jpg')],
-          tools: 'Python, Javascript, HTML/CSS, Django, SQL'
+          tools: 'Python, CV2'
         }
     );
 
@@ -116,7 +116,7 @@ class MyProjectList {
           desc:'This was a hobby project I worked on to create christmas cards \
                 for friends and family. The user can easily create different types \
                 of fractals using python and matplotlib.',
-          github:'https://github.com',
+          github:'https://github.com/cdfritz7/fractal_generator',
           imgs:[require('./imgs/fractal_generator/treefractal5.jpg'),
                 require('./imgs/fractal_generator/fractal7.jpg'),
                 require('./imgs/fractal_generator/fractal2.jpg')],
@@ -132,7 +132,7 @@ class MyProjectList {
                 The two players would face off in a space duel, and could select \
                 from multiple levels. If I remember correctly, we got 6th place \
                 out of 63 teams',
-          github:'https://github.com',
+          github:'https://github.com/cdfritz7/EE319k_final_project',
           imgs:[require('./imgs/c_videogame/videogame1.png'),
                 require('./imgs/c_videogame/videogame2.png')],
           tools: 'C, lots of hardware'
@@ -146,7 +146,7 @@ class MyProjectList {
                 digital art by sorting pixels within an image. The user can specify \
                 square shapes by pixel value and percentages, and can choose from \
                 multiple pixel sorting styles.',
-          github:'https://github.com',
+          github:'https://github.com/cdfritz7/pixel_sorting',
           imgs:[require('./imgs/pixelsorter/jellyfishout.jpg')],
           tools: 'Python, CV2'
         }
@@ -165,8 +165,6 @@ class MyProjectList {
           tools: 'Java'
         }
     );
-
-
 
   }
 }

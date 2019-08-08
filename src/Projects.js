@@ -12,7 +12,7 @@ class MyCard extends Component{
     this.state = {imgs: this.props.imgs,
                   img: this.props.imgs[0],
                   idx: 0,
-                  border_size:'0vw'}
+                  border_color:"#343B42"}
     this.changePicture = this.changePicture.bind(this)
     this.highlightBorder = this.highlightBorder.bind(this)
     this.dehighlightBorder = this.dehighlightBorder.bind(this)
@@ -30,13 +30,13 @@ class MyCard extends Component{
 
   highlightBorder(){
     this.setState({
-      border_size: '.66vw'
+      border_color: "#428bca"
     });
   }
 
   dehighlightBorder(){
     this.setState({
-      border_size: '0vw'
+      border_color: "#343B42"
     });
   }
 
@@ -55,9 +55,9 @@ class MyCard extends Component{
   cardImage(){
     if(this.state.imgs.length > 1){
       return(
-        <Card.Img variant="top" style={{borderWidth: this.state.border_size,
+        <Card.Img variant="top" style={{borderWidth: '10px',
                                         borderStyle: 'solid',
-                                        borderColor: "#428bca"}}
+                                        borderColor: this.state.border_color}}
                                 src={this.state.img}
                                 onClick={this.changePicture}
                                 onMouseEnter={this.highlightBorder}
@@ -65,7 +65,10 @@ class MyCard extends Component{
       )
     }else{
       return(
-        <Card.Img variant="top" style={{borderWidth: 0}} src={this.state.img}/>
+        <Card.Img variant="top" style={{borderWidth: '10px',
+                                        borderStyle: 'solid',
+                                        borderColor: this.state.border_color}}
+                                src={this.state.img}/>
       )
     }
   }
