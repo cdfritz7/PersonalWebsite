@@ -16,16 +16,16 @@ class Contact extends React.Component {
         <Card bg="light" style={{margin:"20px", maxWidth:"800px"}}>
           <Card.Body>
             <Card.Title className="darkText mediumLargeText"
-                        style={{ borderBottom: "1px solid grey" }}
+                        style={{ borderBottom: "3px solid black" }}
                         >About</Card.Title>
             <Card.Text className="darkText mediumText">
-                Hi, my name is Connor. I'm an Electrical and Computer Engineering major studying at the
+                Hi, my name is Connor. I'm a Computer Engineering major studying at the
                 University of Texas at Austin, specializing in data science and software engineering.
                 <br />
                 <br />
 
-                I've worked as a data scientist in most of the positions that I've held,
-                so I'm most comfortable with python. However, I also have experience in
+                I'm most comfortable with python, because I've used it in most of
+                the positions I've held so far. However, I also have experience in
                 Java, Javascript, C, C++, and HTML/CSS from independent and
                 school related projects.
 
@@ -44,7 +44,7 @@ class Contact extends React.Component {
         <Card bg="light" style={{margin:"20px", maxWidth:"800px"}}>
           <Card.Body>
             <Card.Title className="darkText mediumLargeText"
-                        style={{ borderBottom: "1px solid grey" }}
+                        style={{ borderBottom: "3px solid black" }}
                         >Contact</Card.Title>
             <Card.Text className="darkText mediumText">
               Email: cdfritz7@gmail.com
@@ -57,7 +57,7 @@ class Contact extends React.Component {
         <Card bg="light" style={{margin:"20px", maxWidth:"800px"}}>
           <Card.Body>
             <Card.Title className="darkText mediumLargeText"
-                        style={{ borderBottom: "1px solid grey" }}>
+                        style={{ borderBottom: "3px solid black" }}>
                         Other Links!</Card.Title>
             <Card.Text className="darkText mediumText">
               <Button variant="primary"
